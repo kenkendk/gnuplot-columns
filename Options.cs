@@ -111,8 +111,8 @@ namespace Columns
 		private Dictionary<string, string> m_opts;
 
 		private static readonly OptionItem COLUMNS_OPT = new OptionItem("columns", "The number of columns to output", "3", OptionType.Integer, false);
-		private static readonly OptionItem COLUMN_SEP_OPT = new OptionItem("columseperator", "The character(s) to output as columns seperators", "\t", OptionType.String);
-		private static readonly OptionItem FIELD_SEP_OPT = new OptionItem("fieldseperator", "The character(s) used to seperate fields", "\t ", OptionType.String);
+		private static readonly OptionItem COLUMN_SEP_OPT = new OptionItem("columseparator", "The character(s) to output as columns separators", "\t", OptionType.String);
+		private static readonly OptionItem FIELD_SEP_OPT = new OptionItem("fieldseparator", "The character(s) used to separate fields", "\t ", OptionType.String);
 		private static readonly OptionItem FIELD_IDX_OPT = new OptionItem("fieldindex", "The index of the field to output, 0 means entire line, -1 means first number field, -2 means last number field", "0", OptionType.Integer);
 		private static readonly OptionItem LINE_RX_OPT = new OptionItem("lineregexp", "The regular expression to find in the line", ".*", OptionType.String, false, (x) => {
 			try {
