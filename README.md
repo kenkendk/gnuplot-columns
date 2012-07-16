@@ -60,3 +60,14 @@ Documentation output:
 		--outputfile: The file to write output data to, will use stdout if not present
 		--verbose: True to generate debug output, false otherwise
 			Default: false
+			
+			
+To install, run:
+	
+	mkdir tmp
+	cd tmp
+	wget "https://raw.github.com/kenkendk/gnuplot-columns/master/columns.exe"
+	wget "https://raw.github.com/kenkendk/gnuplot-columns/master/columns-launcher.sh"
+	wget "https://raw.github.com/kenkendk/gnuplot-columns/master/install.sh"
+	wget "https://raw.github.com/kenkendk/gnuplot-columns/master/uninstall.sh"
+	sudo ./install.sh
